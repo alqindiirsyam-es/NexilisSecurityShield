@@ -36,8 +36,8 @@ mode 1 dan 2 menjalankan emulator/jailbreak/hook/debugger dengan aksi **keluar**
 
 ## Distribusi
 
-- CocoaPods: `pod 'NexilisSecurityShield', '~> 6.0.7'` (dependensi hanya `NexilisZTA ~> 6.0.7`)
-- SPM: `https://github.com/alqindiirsyam-es/NexilisSecurityShield.git` from `6.0.7`
+- CocoaPods: `pod 'NexilisSecurityShield', '~> 6.0.8'` (dependensi hanya `NexilisZTA ~> 6.0.8`)
+- SPM: `https://github.com/alqindiirsyam-es/NexilisSecurityShield.git` from `6.0.8`
 
 ## Koneksi
 
