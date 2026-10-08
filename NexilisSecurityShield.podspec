@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NexilisSecurityShield"
-  spec.version      = "6.0.8"
+  spec.version      = "6.0.9"
   spec.summary      = "Nexilis SecurityShield policy checks"
   spec.description  = <<-DESC
   The server-configured SecurityShield policy for iOS: emulator, jailbreak, outdated OS, cloned
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'Foundation', 'UIKit', 'CoreTelephony', 'CoreLocation', 'CoreMotion',
                       'Network', 'SystemConfiguration', 'CryptoKit', 'Security'
 
-  spec.dependency 'NexilisZTA', '~> 6.0.8'
+  spec.dependency 'NexilisZTA', '~> 6.0.9'
 
   # HTTPS only, no nuSDKService: nothing here is device-only, so the Simulator is not excluded.
   spec.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }

@@ -24,7 +24,7 @@ let package = Package(
         .library(name: "NexilisSecurityShield", targets: ["NexilisSecurityShield"])
     ],
     dependencies: [
-        .package(url: "https://github.com/alqindiirsyam-es/NexilisZTA.git", from: "6.0.8")
+        .package(url: "https://github.com/alqindiirsyam-es/NexilisZTA.git", from: "6.0.9")
     ],
     targets: [
         .target(
